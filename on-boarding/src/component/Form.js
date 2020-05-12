@@ -2,9 +2,18 @@ import React from "react";
 
 function Form() {
   return (
-    <div>
-      <h1>World Hello</h1>
-    </div>
+    <form>
+      <label>
+        Name: <input name="name" />
+      </label>
+      <label>
+        Email: <input name="email" />
+      </label>
+      <label>
+        Role: <input name="role" />
+      </label>
+      <button>Add</button>
+    </form>
   );
 }
 
